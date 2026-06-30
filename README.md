@@ -19,8 +19,7 @@
 
 <div align="center">
 (https://uithefactory.com/gallery)
-  <img src="https://via.placeholder.com/1200x630/0a0a0a/ffffff?text=Upload+a+GIF+of+your+components+in+action+here!+(Extremely+Important)" alt="The UI Factory Components Showcase" width="100%" style="border-radius: 12px; border: 1px solid #333;" />
-</div>
+
 
 ---
 
