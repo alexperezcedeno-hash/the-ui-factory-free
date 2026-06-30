@@ -3,9 +3,9 @@
   <p><strong>A hyper-premium collection of copy-paste React components built for the modern web.</strong></p>
 
   <p>
-    <a href="https://theuifactory.com"><b>Website</b></a> •
-    <a href="https://theuifactory.com"><b>Browse Components</b></a> •
-    <a href="https://theuifactory.com/pro"><b>Go Pro</b></a>
+    <a href="https://uithefactory.com"><b>Website</b></a> •
+    <a href="https://uithefactory.com"><b>Browse Components</b></a> •
+    <a href="https://uithefactory.com/pro"><b>Go Pro</b></a>
   </p>
 
   <p>
@@ -59,7 +59,7 @@ The free components in this repository are just the tip of the iceberg.
 
 Unlock our **insanely advanced physics-based components** (like our Brutalist Social Nodes or Lunar Orbit) at our official website:
 
-👉 **[Unlock The UI Factory PRO](https://theuifactory.com)**
+👉 **[Unlock The UI Factory PRO](https://uithefactory.com)**
 
 ## 🛠️ Built with modern standards
 
