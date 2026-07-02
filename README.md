@@ -1,79 +1,84 @@
 <div align="center">
-  <h1>🏭 The UI Factory<br/>Free Components</h1>
-  <p><strong>A hyper-premium collection of copy-paste React components built for the modern web.</strong></p>
+  <img src="https://uithefactory.com/opengraph-image.png" alt="The UI Factory Banner" width="100%" />
+
+  <h1>The UI Factory (Free Components)</h1>
+  
+  <p><strong>A hyper-premium collection of copy-paste React components built for the modern web.</strong><br>Featuring Framer Motion physics, Tailwind CSS v4, and dual design dimensions.</p>
 
   <p>
     <a href="https://uithefactory.com"><b>Website</b></a> •
-    <a href="https://uithefactory.com"><b>Browse Components</b></a> •
-    <a href="https://uithefactory.com/pro"><b>Go Pro</b></a>
+    <a href="https://uithefactory.com/gallery"><b>Component Gallery</b></a> •
+    <a href="https://uithefactory.com/pricing"><b>Unlock PRO 💎</b></a>
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/Tailwind_CSS-v4.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/Framer_Motion-11.x-black?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
-    <img src="https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+    <img src="https://img.shields.io/badge/Next.js-16.2-black?style=for-the-badge&logo=next.js" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-v4.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind v4" />
+    <img src="https://img.shields.io/badge/Framer_Motion-11.x-black?style=for-the-badge&logo=framer" alt="Framer Motion" />
+    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License MIT" />
   </p>
 </div>
 
 ---
 
-<div align="center">
-(https://uithefactory.com/gallery)
+## ⚡ Welcome to the Multiverse
 
+Most UI libraries give you generic, corporate components that look like an internal dashboard. **The UI Factory is different.** We focus on high-impact, marketing-ready UI components designed to capture attention and elevate your product's perceived value.
+
+Our components are built with a unique architectural system that adapts to two completely opposite aesthetics automatically:
+
+1. **🧪 Ink & Acid (Brutalist):** High-contrast, aggressive neon accents, physical button animations, hard shadows, and brutalist typography.
+2. **✨ Aurora Glow (Modern):** Premium glassmorphism, fluid micro-interactions, thick glass effects, deep shadows, and delicate glows.
+
+This repository contains the **Free Tier** source code of our components. All code here is fully open (MIT License) and ready to drop into your projects.
 
 ---
 
-## ✨ Welcome to the Multiverse
-
-The UI Factory isn't just another component gallery. It's a dual-dimension design system featuring:
-- 🌌 **Aurora Glow**: Fluid, hyper-premium glassmorphism, stellar interactions, and delicate light physics.
-- 🧪 **Ink & Acid**: Brutalist, high-contrast, physics-based neon interfaces with harsh shadows.
-
-This repository contains the **Free Tier** source code of our components. All code here is fully open and ready to drop into your projects.
-
-## 🚀 How to Use
+## 🚀 Quick Start
 
 These components are designed to be **copy-pasted**. You don't need to install a heavy library.
 
-### Prerequisites
+### 1. The CLI Way (Recommended)
+You can install components directly into your Next.js project using our CLI. It automatically handles dependencies and configures everything for you.
 
-Make sure your project has the following installed:
+```bash
+npx uithefactory add [component-name]
+```
+
+### 2. The Copy-Paste Way
+1. Browse our [Interactive Gallery](https://uithefactory.com/gallery).
+2. Select a free component.
+3. Copy the raw source code and drop it into your project. Complete freedom, zero vendor lock-in.
+
+**Prerequisites:**
 - React (or Next.js)
 - Tailwind CSS **v4**
 - Framer Motion: `npm install framer-motion`
 - React Icons: `npm install react-icons`
 
-### Manual Installation
+---
 
-1. Browse the `components/` folder in this repository.
-2. Select the component you like (e.g., `glass-button.tsx`).
-3. Copy the file into your project (usually `src/components/ui/`).
-4. Import it and use it!
+## 💎 The Premium Tier (PRO)
 
-```tsx
-import { GlassButton } from "@/components/ui/glass-button";
-
-export default function Page() {
-  return <GlassButton>Click Me!</GlassButton>;
-}
-```
-
-## 💎 The Premium Tier
-
-Are you looking for advanced drag-and-drop mechanics, volumetric 3D elements, or complex interactive dashboards?
-The free components in this repository are just the tip of the iceberg. 
+Are you looking for advanced drag-and-drop mechanics, volumetric 3D elements, premium logins, or complex interactive dashboards? The free components in this repository are just the tip of the iceberg.
 
 Unlock our **insanely advanced physics-based components** (like our Brutalist Social Nodes or Lunar Orbit) at our official website:
 
-👉 **[Unlock The UI Factory PRO](https://uithefactory.com)**
+👉 **[Unlock The UI Factory PRO](https://uithefactory.com/pricing)**
 
-## 🛠️ Built with modern standards
+---
 
-All components are strictly built using:
-- **Tailwind v4** (Say goodbye to v3 syntax, we use modern `@theme` variables)
-- **Framer Motion** for butter-smooth, GPU-accelerated micro-animations.
-- **TypeScript** for absolute type safety and autocomplete.
+## 🛠 Tech Stack
 
-## 📜 License
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS v4 (No `tailwind.config.js` required)
+- **Animations:** Framer Motion (Real physics & gestures)
+- **Icons:** React Icons / Phosphor Icons
+- **Utility:** Standard `clsx` + `tailwind-merge`
 
-These free components are released under the MIT License. You are absolutely free to use them in both personal and commercial projects. If you love them, consider starring ⭐️ this repository!
+---
+
+<div align="center">
+  <i>"Don't build another boring dashboard. Build an experience."</i><br/>
+  <b>— The UI Factory Team</b>
+</div>
